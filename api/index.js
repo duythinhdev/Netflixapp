@@ -20,7 +20,7 @@ mongoose
   .catch((err) => {
     console.error(err);
   });
-
+ 
 app.use("/api/auth",authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/movies", movieRoute);
